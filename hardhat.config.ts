@@ -9,10 +9,6 @@ module.exports = {
             // This value will be replaced on runtime
             url: process.env.STAGING_QUICKNODE_KEY,
             accounts: [process.env.PRIVATE_KEY]
-        },
-        mainnet: {
-            url: process.env.PROD_QUICKNODE_KEY,
-            accounts: [process.env.PRIVATE_KEY]
         }
     }
 };
